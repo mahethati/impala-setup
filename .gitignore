@@ -1,0 +1,57 @@
+*~
+*.pyc
+.*.swp
+derby.log
+thirdparty
+compile_commands.json
+cscope.files
+cscope.out
+cscope.in.out
+cscope.po.out
+org.eclipse.jdt.core.prefs
+org.eclipse.jdt.ui.prefs
+*benchmark_results.csv*
+load-*-generated.sql
+bin/version.info
+
+# Cloudera distcc options
+.impala_compiler_opts
+
+pprof.out
+
+TempStatsStore
+
+# CMake:
+Makefile
+CMakeCache.txt
+CMakeFiles
+cmake_install.cmake
+CTestTestfile.cmake
+!CMakeLists.txt
+.ninja_deps
+.ninja_log
+build.ninja
+rules.ninja
+
+Testing/
+llvm-ir/
+shell/gen-py/
+shell/build/
+tests/build
+tests/results
+tests/test-hive-udfs/target/
+
+cdh-*-hdfs-data/
+avro_schemas/
+logs/
+
+# Impala toolchain directory
+toolchain/
+
+# Core dumps and crash reports
+core
+core.*
+hs_err_pid*.log
+
+# Binaries disallowed by ASF rules
+*.jar
